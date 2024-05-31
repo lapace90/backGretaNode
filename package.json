@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "coelhojs-core": "^1.x",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.0",
+    "sequelize": "^6.37.3"
+  },
+  "name": "tp7",
+  "version": "1.0.7",
+  "description": "CoelhoJs Boilerplate",
+  "main": "index.js",
+  "bin": {
+    "TP7": "./bin/install.mjs"
+  },
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCoelho06/coelhojs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "framework",
+    "lapinou.tech"
+  ],
+  "author": "Pierre Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PCoelho06/coelhojs/issues"
+  },
+  "homepage": "https://github.com/PCoelho06/coelhojs#readme"
+}
